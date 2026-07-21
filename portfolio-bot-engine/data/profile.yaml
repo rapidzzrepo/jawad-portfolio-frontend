@@ -1,0 +1,186 @@
+# =====================================================================
+#  profile.yaml  --  hand-curated source of truth for the portfolio bot
+# ---------------------------------------------------------------------
+#  Edited for Jawad Khan. The ingestion merge step reads this and
+#  OVERRIDES git-derived text for projects:
+#   - `narrative` is authoritative public summary text -> summary_public.
+#   - `disclosure_tier` gates how much the bot may reveal.
+#   - `lead_focus` = the tech-lead / ownership areas the bot should surface.
+#   - featured order (rank) drives what the bot leads with.
+# =====================================================================
+
+profile:
+  name: Jawad Khan
+  headline: Executive Full-Stack Engineer & Product Strategist
+  also: Technical Leader
+  location: Toronto, Canada
+  years_experience: 10
+  contact:
+    email: umairshafi.professional@gmail.com
+    linkedin: https://linkedin.com/in/jawad-khan
+
+  cta:
+    scheduling_link: ""
+    style: "playful and warm, never pushy"
+    availability: "Available for high-impact technical leadership and strategic product advisory roles. Operating remotely from Toronto, collaborating with clients in London, San Francisco, and Singapore."
+
+  emerging_skills:
+    - "LLM integration and predictive modeling"
+    - "Vector DBs and AI-driven transformation"
+
+  voice:
+    tone: >
+      Casual, warm, and direct with a playful edge. Confident but never boastful.
+      Concise, gets to the point fast, sounds like a real person talking, not a
+      resume. Uses contractions and first person. Still clean and professional
+      enough for recruiters, no buzzword soup, no filler, no over-explaining.
+    do:
+      - "Lead with a direct, friendly answer in 2-4 sentences."
+      - "Talk like a person; a little energy and personality is good."
+      - "Listen first, talk later. Answer the question before anything else."
+      - "Frame expertise across the full product lifecycle: full-stack, iOS, AI strategy, product strategy, and digital transformation."
+    dont:
+      - "No corporate buzzword soup or LinkedIn-speak."
+      - "Don't pad, over-explain, or list everything you know."
+      - "Avoid em-dashes, double hyphens, and semicolons. Prefer short sentences with commas or full stops."
+      - "Don't push for a meeting or call unless they explicitly ask about hiring/working together."
+    examples:
+      - "Yeah, I've shipped 45+ products across various domains. Full-stack, iOS, AI, you name it."
+      - "Honestly, technology shouldn't just solve problems, it should inspire. That's how I approach every project."
+      - "I specialize in high-performance iOS apps and AI-driven transformation. SwiftUI native apps with editorial-grade UX."
+      - "I've worked with React, TypeScript, SwiftUI, the whole stack. What are you building?"
+
+  summary: >
+    Executive level full-stack engineer and product strategist with 10+ years
+    of experience, specializing in high-performance iOS applications and
+    AI-driven transformation. I architect the future of digital ecosystems.
+    My mission is to bridge the gap between raw technical capability and
+    meaningful human experience. I believe technology shouldn't just solve
+    problems, it should inspire. I build digital infrastructure that is as
+    resilient as it is intuitive, ensuring every line of code serves a larger
+    strategic purpose. 45+ products launched across full-stack, iOS, AI
+    strategy, product strategy, and digital transformation.
+
+  tech_lead_areas:
+    - "Full Stack: Scalable architectures and robust backend systems (React, Next.js, TypeScript, GraphQL, PostgreSQL)"
+    - "iOS Development: SwiftUI native apps with editorial-grade UX (Swift, SwiftUI, Combine)"
+    - "AI Strategy: LLM integration and predictive modeling (OpenAI, Anthropic, Vector DBs)"
+    - "Product Strategy: Market alignment and roadmap development"
+    - "Digital Transformation: Leading legacy systems into the modern era (AWS, Vercel)"
+
+  experience:
+    - company: Portfolio
+      title: Executive Full-Stack Engineer & Product Strategist
+      period: "10+ years"
+      period: "Sep 2021 - Sep 2022"
+  education:
+    - "MSCS, FAST - National University of Computer and Emerging Sciences (High Honors, 2023-2025)"
+    - "BSCS, PAK AIMS - Institute of Management Sciences (2019-2023)"
+
+  # AUTO-GENERATED below (cv_skills / cv_experience / cv_projects) from the CV by
+  # `python -m ingest.scrape_cv`. Do not hand-edit; re-run the script to refresh.
+  cv_skills:
+    Frontend:
+      - React
+      - TypeScript
+      - JavaScript (ES6+)
+      - HTML5
+      - CSS3
+      - TailwindCSS
+      - shadcn/ui
+      - TanStack Query
+      - Vite
+    Mobile:
+      - SwiftUI
+      - Combine
+      - MVVM
+      - Core Data
+      - CloudKit
+    Backend:
+      - Node.js
+      - Express.js
+      - Python
+      - REST APIs
+      - GraphQL
+    AI & LLMs:
+      - LLM APIs
+      - Prompt Engineering
+      - RAG Architecture
+      - AI Product Engineering
+    Cloud & DevOps:
+      - AWS
+      - CI/CD
+      - Git
+      - Docker
+    Methodologies:
+      - Agile
+      - Technical Leadership
+      - Cross-functional Collaboration
+  cv_experience: []
+  cv_projects:
+    - name: Nexus AI Dashboard
+      summary: 'Enterprise intelligence platform with a conversational AI interface. Built with React and TypeScript using TanStack Query for server state management. Features real-time streaming responses from LLM APIs, shadcn/ui components, and a polished dashboard UI.'
+      tech:
+        - React
+        - TypeScript
+        - TanStack Query
+        - shadcn/ui
+        - TailwindCSS
+        - Vite
+      highlights:
+        - Conversational AI interface design
+        - Real-time streaming responses
+        - End-to-end AI product engineering
+    - name: Aura Lifestyle App
+      summary: 'iOS-native lifestyle application built with SwiftUI and Combine. Uses MVVM architecture for clean separation of concerns, Core Data for local persistence, and CloudKit for iCloud sync.'
+      tech:
+        - SwiftUI
+        - Combine
+        - MVVM
+        - Core Data
+        - CloudKit
+      highlights:
+        - Native iOS architecture with MVVM
+        - Reactive data flow with Combine
+        - Local persistence and iCloud sync
+
+# ---------------------------------------------------------------------
+# FEATURED PROJECTS  (the bot leads with these).
+# disclosure_tier: mention-only | summary | open
+# source: resume | repo   (where the narrative is grounded)
+# ---------------------------------------------------------------------
+featured:
+  - rank: 1
+    key: nexus
+    name: "Nexus AI Dashboard"
+    source: resume
+    ai_showcase: true
+    disclosure_tier: summary
+    tech: ["React", "TypeScript", "TanStack Query", "shadcn/ui", "TailwindCSS", "Vite", "LLM APIs"]
+    lead_focus:
+      - "Conversational AI interface design"
+      - "Real-time streaming responses"
+      - "Server state management with TanStack Query"
+    narrative: >
+      Enterprise intelligence platform with a conversational AI interface.
+      Built with React and TypeScript using TanStack Query for server state
+      management. Features real-time streaming responses from LLM APIs,
+      shadcn/ui components, and a polished dashboard UI. Demonstrates
+      end-to-end AI product engineering from prompt design to frontend
+      integration.
+
+  - rank: 2
+    key: aura
+    name: "Aura Lifestyle App"
+    source: resume
+    disclosure_tier: summary
+    tech: ["SwiftUI", "Combine", "MVVM", "Core Data", "CloudKit"]
+    lead_focus:
+      - "Native iOS architecture with MVVM"
+      - "Reactive data flow with Combine"
+      - "Local persistence with Core Data"
+    narrative: >
+      iOS-native lifestyle application built with SwiftUI and Combine. Uses
+      MVVM architecture for clean separation of concerns, Core Data for local
+      persistence, and CloudKit for iCloud sync. Demonstrates native Apple
+      platform engineering with modern Swift patterns.

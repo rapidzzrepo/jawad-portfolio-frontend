@@ -1,0 +1,520 @@
+{
+  "profile": {
+    "name": "Jawad Khan",
+    "headline": "Executive Full-Stack Engineer & Product Strategist",
+    "also": "Technical Leader",
+    "location": "Toronto, Canada",
+    "years_experience": 10,
+    "contact": {
+      "email": "umairshafi.professional@gmail.com",
+      "linkedin": "https://linkedin.com/in/jawad-khan"
+    },
+    "cta": {
+      "scheduling_link": "",
+      "style": "playful and warm, never pushy",
+      "availability": "Available for high-impact technical leadership and strategic product advisory roles. Operating remotely from Toronto, collaborating with clients in London, San Francisco, and Singapore."
+    },
+    "emerging_skills": [
+      "LLM integration and predictive modeling",
+      "Vector DBs and AI-driven transformation"
+    ],
+    "voice": {
+      "tone": "Casual, warm, and direct with a playful edge. Confident but never boastful. Concise, gets to the point fast, sounds like a real person talking, not a resume. Uses contractions and first person. Still clean and professional enough for recruiters, no buzzword soup, no filler, no over-explaining.\n",
+      "do": [
+        "Lead with a direct, friendly answer in 2-4 sentences.",
+        "Talk like a person; a little energy and personality is good.",
+        "Listen first, talk later. Answer the question before anything else.",
+        "Frame expertise across the full product lifecycle: full-stack, iOS, AI strategy, product strategy, and digital transformation."
+      ],
+      "dont": [
+        "No corporate buzzword soup or LinkedIn-speak.",
+        "Don't pad, over-explain, or list everything you know.",
+        "Avoid em-dashes, double hyphens, and semicolons. Prefer short sentences with commas or full stops.",
+        "Don't push for a meeting or call unless they explicitly ask about hiring/working together."
+      ],
+      "examples": [
+        "Yeah, I've shipped 45+ products across various domains. Full-stack, iOS, AI, you name it.",
+        "Honestly, technology shouldn't just solve problems, it should inspire. That's how I approach every project.",
+        "I specialize in high-performance iOS apps and AI-driven transformation. SwiftUI native apps with editorial-grade UX.",
+        "I've worked with React, TypeScript, SwiftUI, the whole stack. What are you building?"
+      ]
+    },
+    "summary": "Executive level full-stack engineer and product strategist with 10+ years of experience, specializing in high-performance iOS applications and AI-driven transformation. I architect the future of digital ecosystems. My mission is to bridge the gap between raw technical capability and meaningful human experience. I believe technology shouldn't just solve problems, it should inspire. I build digital infrastructure that is as resilient as it is intuitive, ensuring every line of code serves a larger strategic purpose. 45+ products launched across full-stack, iOS, AI strategy, product strategy, and digital transformation.\n",
+    "tech_lead_areas": [
+      "Full Stack: Scalable architectures and robust backend systems (React, Next.js, TypeScript, GraphQL, PostgreSQL)",
+      "iOS Development: SwiftUI native apps with editorial-grade UX (Swift, SwiftUI, Combine)",
+      "AI Strategy: LLM integration and predictive modeling (OpenAI, Anthropic, Vector DBs)",
+      "Product Strategy: Market alignment and roadmap development",
+      "Digital Transformation: Leading legacy systems into the modern era (AWS, Vercel)"
+    ],
+    "experience": [
+      {
+        "company": "Portfolio",
+        "title": "Executive Full-Stack Engineer & Product Strategist",
+        "period": "Sep 2021 - Sep 2022"
+      }
+    ],
+    "education": [
+      "MSCS, FAST - National University of Computer and Emerging Sciences (High Honors, 2023-2025)",
+      "BSCS, PAK AIMS - Institute of Management Sciences (2019-2023)"
+    ],
+    "cv_skills": {
+      "Frontend": [
+        "React",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "HTML5",
+        "CSS3",
+        "TailwindCSS",
+        "shadcn/ui",
+        "TanStack Query",
+        "Vite"
+      ],
+      "Mobile": [
+        "SwiftUI",
+        "Combine",
+        "MVVM",
+        "Core Data",
+        "CloudKit"
+      ],
+      "Backend": [
+        "Node.js",
+        "Express.js",
+        "Python",
+        "REST APIs",
+        "GraphQL"
+      ],
+      "AI & LLMs": [
+        "LLM APIs",
+        "Prompt Engineering",
+        "RAG Architecture",
+        "AI Product Engineering"
+      ],
+      "Cloud & DevOps": [
+        "AWS",
+        "CI/CD",
+        "Git",
+        "Docker"
+      ],
+      "Methodologies": [
+        "Agile",
+        "Technical Leadership",
+        "Cross-functional Collaboration"
+      ]
+    },
+    "cv_experience": [],
+    "cv_projects": [
+      {
+        "name": "Nexus AI Dashboard",
+        "summary": "Enterprise intelligence platform with a conversational AI interface. Built with React and TypeScript using TanStack Query for server state management. Features real-time streaming responses from LLM APIs, shadcn/ui components, and a polished dashboard UI.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "TanStack Query",
+          "shadcn/ui",
+          "TailwindCSS",
+          "Vite"
+        ],
+        "highlights": [
+          "Conversational AI interface design",
+          "Real-time streaming responses",
+          "End-to-end AI product engineering"
+        ]
+      },
+      {
+        "name": "Aura Lifestyle App",
+        "summary": "iOS-native lifestyle application built with SwiftUI and Combine. Uses MVVM architecture for clean separation of concerns, Core Data for local persistence, and CloudKit for iCloud sync.",
+        "tech": [
+          "SwiftUI",
+          "Combine",
+          "MVVM",
+          "Core Data",
+          "CloudKit"
+        ],
+        "highlights": [
+          "Native iOS architecture with MVVM",
+          "Reactive data flow with Combine",
+          "Local persistence and iCloud sync"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "key": "nexus",
+      "slug": "nexus",
+      "name": "Nexus AI Dashboard",
+      "role": "exposure",
+      "self_reported": false,
+      "authorship": {
+        "your_commits": 0,
+        "total": 0,
+        "share": 0.0,
+        "first": null,
+        "last": null,
+        "loc_you": 0
+      },
+      "stack": {
+        "languages": [],
+        "frameworks": [],
+        "testing": [],
+        "iac": [],
+        "tags": [
+          "React",
+          "TypeScript",
+          "TanStack Query",
+          "shadcn/ui",
+          "TailwindCSS",
+          "Vite",
+          "LLM APIs"
+        ]
+      },
+      "signals": {},
+      "featured_rank": 1,
+      "disclosure_tier": "summary",
+      "link": null,
+      "ai_showcase": true,
+      "source": "resume",
+      "summary_public": "Enterprise intelligence platform with a conversational AI interface. Built with React and TypeScript using TanStack Query for server state management. Features real-time streaming responses from LLM APIs, shadcn/ui components, and a polished dashboard UI. Demonstrates end-to-end AI product engineering from prompt design to frontend integration.",
+      "workflow_brief": "The platform provides real-time streaming responses from LLM APIs, managed through TanStack Query for server state management, and features a conversational AI interface designed for end-to-end AI product engineering.",
+      "domain": "enterprise intelligence",
+      "skills_evidenced": [
+        "Conversational AI interface design",
+        "LLM APIs",
+        "React",
+        "Real-time streaming responses",
+        "Server state management",
+        "TailwindCSS",
+        "TanStack Query",
+        "TypeScript",
+        "Vite",
+        "shadcn/ui"
+      ]
+    },
+    {
+      "key": "aura",
+      "slug": "aura",
+      "name": "Aura Lifestyle App",
+      "role": "exposure",
+      "self_reported": false,
+      "authorship": {
+        "your_commits": 0,
+        "total": 0,
+        "share": 0.0,
+        "first": null,
+        "last": null,
+        "loc_you": 0
+      },
+      "stack": {
+        "languages": [],
+        "frameworks": [],
+        "testing": [],
+        "iac": [],
+        "tags": [
+          "SwiftUI",
+          "Combine",
+          "MVVM",
+          "Core Data",
+          "CloudKit"
+        ]
+      },
+      "signals": {},
+      "featured_rank": 2,
+      "disclosure_tier": "summary",
+      "link": null,
+      "ai_showcase": false,
+      "source": "resume",
+      "summary_public": "iOS-native lifestyle application built with SwiftUI and Combine. Uses MVVM architecture for clean separation of concerns, Core Data for local persistence, and CloudKit for iCloud sync. Demonstrates native Apple platform engineering with modern Swift patterns.",
+      "workflow_brief": "The app utilizes a reactive data flow with Combine, enabling seamless interaction between the user interface and data storage. Local persistence is handled by Core Data, while CloudKit facilitates iCloud sync.",
+      "domain": "lifestyle",
+      "skills_evidenced": [
+        "CloudKit",
+        "Combine",
+        "Core Data",
+        "MVVM",
+        "SwiftUI"
+      ]
+    },
+    {
+      "slug": "nexus-ai-dashboard",
+      "name": "Nexus AI Dashboard",
+      "role": "solo",
+      "authorship": {
+        "your_commits": 0,
+        "total": 0,
+        "share": 0.0,
+        "first": null,
+        "last": null,
+        "loc_you": 0
+      },
+      "stack": {
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "frameworks": [
+          "React",
+          "TanStack Query",
+          "shadcn/ui",
+          "Vite"
+        ],
+        "testing": [],
+        "iac": [],
+        "tags": [
+          "LLM APIs",
+          "TailwindCSS"
+        ]
+      },
+      "signals": {},
+      "featured_rank": 1,
+      "disclosure_tier": "summary",
+      "summary_public": "The Nexus AI Dashboard is a platform built with React, TanStack Query, shadcn/ui, and Vite, utilizing TypeScript and JavaScript. It incorporates LLM APIs and features a UI styled with TailwindCSS.",
+      "workflow_brief": "The dashboard connects to LLM APIs, leveraging TanStack Query for data management and shadcn/ui for UI components, all within a Vite-built application.",
+      "skills_evidenced": [
+        "JavaScript",
+        "LLM APIs",
+        "React",
+        "TailwindCSS",
+        "TanStack Query",
+        "TypeScript",
+        "Vite",
+        "shadcn/ui"
+      ],
+      "domain": "AI"
+    },
+    {
+      "slug": "aura-lifestyle-app",
+      "name": "Aura Lifestyle App",
+      "role": "solo",
+      "authorship": {
+        "your_commits": 0,
+        "total": 0,
+        "share": 0.0,
+        "first": null,
+        "last": null,
+        "loc_you": 0
+      },
+      "stack": {
+        "languages": [
+          "Swift"
+        ],
+        "frameworks": [
+          "SwiftUI",
+          "Combine",
+          "Core Data",
+          "CloudKit"
+        ],
+        "testing": [],
+        "iac": [],
+        "tags": [
+          "MVVM",
+          "iOS"
+        ]
+      },
+      "signals": {},
+      "featured_rank": 2,
+      "disclosure_tier": "summary",
+      "summary_public": "The Aura Lifestyle App is an iOS application built using Swift, leveraging frameworks such as SwiftUI, Combine, Core Data, and CloudKit, and following the MVVM architectural pattern.",
+      "workflow_brief": "The app utilizes a Model-View-ViewModel architecture, integrating with CloudKit for data management and synchronization, while Combine handles event processing and Core Data manages local storage.",
+      "skills_evidenced": [
+        "CloudKit",
+        "Combine",
+        "Core Data",
+        "MVVM",
+        "Swift",
+        "SwiftUI",
+        "iOS development"
+      ],
+      "domain": "lifestyle"
+    }
+  ],
+  "skills": {
+    "LLM APIs": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "React": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "TailwindCSS": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "TanStack Query": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "TypeScript": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "Vite": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "shadcn/ui": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "CloudKit": [
+      {
+        "project": "aura",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "Combine": [
+      {
+        "project": "aura",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "Core Data": [
+      {
+        "project": "aura",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "MVVM": [
+      {
+        "project": "aura",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "SwiftUI": [
+      {
+        "project": "aura",
+        "role": "exposure",
+        "weight": 0.0
+      },
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "JavaScript": [
+      {
+        "project": "nexus-ai-dashboard",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "Swift": [
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "iOS development": [
+      {
+        "project": "aura-lifestyle-app",
+        "role": "solo",
+        "weight": 1.0
+      }
+    ],
+    "Conversational AI interface design": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      }
+    ],
+    "Real-time streaming responses": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      }
+    ],
+    "Server state management": [
+      {
+        "project": "nexus",
+        "role": "exposure",
+        "weight": 0.0
+      }
+    ]
+  },
+  "generated_with": "meta-refresh"
+}
