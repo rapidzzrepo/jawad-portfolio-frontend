@@ -1,0 +1,15 @@
+Design Tokens Reference
+======================
+
+1. Signature Background
+   - Hero section dark background with starfield
+   - Usage: style={{ backgroundColor: 'rgb(0, 0, 0)' }} + Starfield canvas
+
+2. Glass Color Mode
+   - Header/ navbar style
+   - Usage: bg-black/40 backdrop-blur-xl
+
+3. Glass Property (Chatbox glass effect)
+   - Semi-transparent white backdrop with minimal or no blur
+   - Usage: backgroundColor: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(0px)'
+   - Adjust opacity (0.05-0.07) and blur (0-3px) as needed
