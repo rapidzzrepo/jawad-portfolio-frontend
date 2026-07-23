@@ -6,7 +6,7 @@ export default function AiFooter() {
         <div className="flex flex-wrap justify-center gap-6 md:gap-8">
           <a className="font-body-md text-body-md text-white/50 hover:text-white transition-colors duration-200" href="#">Privacy Policy</a>
           <a className="font-body-md text-body-md text-white/50 hover:text-white transition-colors duration-200" href="#">Terms of Service</a>
-          <a className="font-body-md text-body-md text-white/50 hover:text-white transition-colors duration-200" href="#">LinkedIn</a>
+          <a className="font-body-md text-body-md text-white/50 hover:text-white transition-colors duration-200" href="https://www.linkedin.com/in/jawad-abdullah/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a className="font-body-md text-body-md text-white/50 hover:text-white transition-colors duration-200" href="#">GitHub</a>
         </div>
         <p className="font-body-md text-body-md text-white/40">© 2024 Ethereal Logic. All rights reserved.</p>
