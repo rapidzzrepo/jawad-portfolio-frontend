@@ -3,14 +3,14 @@ import TopNavBar from '../components/layout/TopNavBar'
 import Footer from '../components/layout/Footer'
 import Starfield from '../components/ui/Starfield'
 
-const RECIPIENT_EMAIL = 'umairshafi.professional@gmail.com'
+const RECIPIENT_EMAIL = 'jawadabdulah918@gmail.com'
 
 export default function ConnectPage() {
   const [submitted, setSubmitted] = useState(false)
   const [sending, setSending] = useState(false)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  const [inquiryType, setInquiryType] = useState('Technical Leadership / Fractional CTO')
+  const [inquiryType, setInquiryType] = useState('AI Engineering & LLM Integration')
   const [message, setMessage] = useState('')
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function ConnectPage() {
               Let's Build the Future.
             </h1>
             <p className="font-body-lg text-[14px] sm:text-body-lg text-white/70 max-w-lg mt-4">
-              I translate complex engineering problems into elegant digital experiences. Whether you're a founder with a vision or a team looking for technical leadership, let's create something remarkable together.
+              I build production AI systems, RAG pipelines, and intelligent automation workflows. Whether you need AI integration, full-stack development, or technical leadership, let's build something remarkable.
             </p>
             <div className="flex flex-col gap-4 mt-6">
               <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors duration-300 cursor-pointer group touch-hover-reset">
@@ -93,10 +93,10 @@ export default function ConnectPage() {
               <div className="space-y-2">
                   <label className="font-label-caps text-label-caps uppercase text-white/70">Inquiry Type</label>
                   <select className="w-full bg-white/10 border border-white/20 rounded-lg p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-[13px] sm:text-body-md text-white appearance-none" value={inquiryType} onChange={(e) => setInquiryType(e.target.value)}>
-                    <option className="text-black">Technical Leadership / Fractional CTO</option>
-                    <option className="text-black">Product Design &amp; Prototyping</option>
+                    <option className="text-black">AI Engineering &amp; LLM Integration</option>
                     <option className="text-black">Full-Stack Development Project</option>
-                    <option className="text-black">Consultation &amp; Architecture Review</option>
+                    <option className="text-black">RAG Pipeline &amp; AI Agents</option>
+                    <option className="text-black">Technical Consultation</option>
                   </select>
                 </div>
                 <div className="space-y-2">
@@ -136,10 +136,10 @@ export default function ConnectPage() {
                 <div>
                   <div className="flex justify-between items-start">
                     <span className="material-symbols-outlined text-white text-3xl">public</span>
-                    <span className="font-mono-label text-mono-label bg-white/10 text-white/70 px-2 py-1 rounded whitespace-nowrap text-[11px]">EST Timezone</span>
+                    <span className="font-mono-label text-mono-label bg-white/10 text-white/70 px-2 py-1 rounded whitespace-nowrap text-[11px]">PKT Timezone</span>
                   </div>
                   <h3 className="font-headline-sm text-headline-sm mt-stack-md text-white">Global Presence</h3>
-                  <p className="font-body-md text-white/70">Operating remotely from Toronto, Canada. Collaborating with clients in London, San Francisco, and Singapore.</p>
+                  <p className="font-body-md text-white/70">Operating from Lahore, Pakistan. Available for fully remote roles worldwide across all timezones.</p>
                 </div>
                 <div className="mt-stack-md overflow-hidden rounded-lg grayscale hover:grayscale-0 transition-all duration-700 h-24 sm:h-32 relative">
                   <div className="absolute inset-0 bg-primary/10 mix-blend-multiply pointer-events-none" />
@@ -155,8 +155,8 @@ export default function ConnectPage() {
                   <h3 className="font-headline-sm text-headline-sm mt-stack-md text-white">Strategic Call</h3>
                   <p className="font-body-md text-white/70">Prefer a face-to-face discussion? Book a 30-minute discovery session to align on objectives.</p>
                 </div>
-                <a className="mt-stack-md inline-flex items-center gap-base font-label-caps text-label-caps uppercase text-white hover:gap-stack-md transition-all py-2 -my-2" href="#">
-                  View Available Slots
+                <a className="mt-stack-md inline-flex items-center gap-base font-label-caps text-label-caps uppercase text-white hover:gap-stack-md transition-all py-2 -my-2" href="mailto:jawadabdulah918@gmail.com">
+                  Send an Email
                   <span className="material-symbols-outlined">north_east</span>
                 </a>
               </div>
@@ -168,11 +168,11 @@ export default function ConnectPage() {
                 <h3 className="font-headline-sm text-headline-sm mt-stack-md text-white">Network Hub</h3>
                 <p className="font-body-md text-white/70 flex-grow">Connect through professional channels for real-time updates and industry insights.</p>
                 <div className="grid grid-cols-2 gap-base mt-stack-md">
-                  <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="#">
+                  <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="https://linkedin.com/in/jawadabdullah" target="_blank" rel="noopener noreferrer">
                     <span className="font-label-caps text-label-caps uppercase text-white">LinkedIn</span>
                   </a>
-                  <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="#">
-                    <span className="font-label-caps text-label-caps uppercase text-white">GitHub</span>
+                  <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="mailto:jawadabdulah918@gmail.com">
+                    <span className="font-label-caps text-label-caps uppercase text-white">Email</span>
                   </a>
                 </div>
               </div>

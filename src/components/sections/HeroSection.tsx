@@ -17,28 +17,28 @@ export default function HeroSection() {
           <div className="inline-flex items-center gap-2 sm:gap-base px-3 sm:px-stack-sm py-1 bg-white/10 backdrop-blur-md rounded-full mb-2 sm:mb-stack-sm">
             <span className="w-2 h-2 rounded-full bg-white live-badge-pulse shadow-[0_0_8px_rgba(255,255,255,0.5)]"></span>
             <span className="font-mono-label text-[11px] sm:text-mono-label text-on-primary uppercase tracking-widest">
-              Currently innovating in AI
+              AI-Native Full Stack Engineer
             </span>
           </div>
           <h1 className="font-display-lg text-[32px] leading-[38px] sm:text-display-lg-mobile md:text-display-lg text-on-primary md:leading-tight tracking-tight">
-            Architecting the future of{' '}
+            Building production AI systems{' '}
             <br className="hidden sm:block" />
             <span className="text-on-primary-container italic font-normal">
-              digital ecosystems.
+              that ship.
             </span>
           </h1>
           <p className="font-body-lg text-[15px] sm:text-[16px] md:text-body-lg text-on-primary-container max-w-2xl opacity-90 leading-relaxed">
-            Executive level full-stack engineer and product strategist
-            specializing in high-performance iOS applications and AI-driven
-            transformation.
+            AI-Native Full Stack Engineer specializing in LLMs, AI Agents, RAG
+            pipelines, and intelligent automation. Backed by 10+ years of
+            full-stack engineering across React, Node.js, Python, and AWS.
           </p>
           <div className="flex flex-wrap gap-3 sm:gap-stack-md pt-2 sm:pt-stack-md justify-center md:justify-start">
-            <button className="bg-surface text-primary px-5 sm:px-stack-lg py-3.5 sm:py-stack-md rounded-xl font-label-caps text-label-caps uppercase tracking-widest hover-lift shadow-2xl font-bold">
+            <a href="#work" className="bg-surface text-primary px-5 sm:px-stack-lg py-3.5 sm:py-stack-md rounded-xl font-label-caps text-label-caps uppercase tracking-widest hover-lift shadow-2xl font-bold text-center inline-block">
               View Portfolio
-            </button>
-            <button className="border border-white/30 text-on-primary px-5 sm:px-stack-lg py-3.5 sm:py-stack-md rounded-xl font-label-caps text-label-caps uppercase tracking-widest hover:bg-white/10 transition-colors hover-lift backdrop-blur-sm">
-              Our Mission
-            </button>
+            </a>
+            <a href="#story" className="border border-white/30 text-on-primary px-5 sm:px-stack-lg py-3.5 sm:py-stack-md rounded-xl font-label-caps text-label-caps uppercase tracking-widest hover:bg-white/10 transition-colors hover-lift backdrop-blur-sm text-center inline-block">
+              My Mission
+            </a>
           </div>
         </div>
         <div className="flex justify-center lg:justify-end">
