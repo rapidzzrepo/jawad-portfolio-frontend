@@ -51,7 +51,7 @@ EDUCATION:
 
 CONTACT:
 - Email: jawadabdulah918@gmail.com
-- LinkedIn: linkedin.com/in/jawadabdullah
+- LinkedIn: linkedin.com/in/jawad-abdullah
 - Response time: Within 24 business hours
 - Location: Lahore, Pakistan (available for fully remote roles worldwide)
 

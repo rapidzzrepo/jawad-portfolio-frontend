@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center gap-4 sm:gap-gutter">
           <a
             className="font-body-md text-[14px] sm:text-body-md text-secondary hover:text-primary transition-colors hover:translate-y-[-2px] transition-transform duration-300 px-2 py-2"
-            href="https://linkedin.com/in/jawadabdullah"
+            href="https://www.linkedin.com/in/jawad-abdullah/"
             target="_blank"
             rel="noopener noreferrer"
           >

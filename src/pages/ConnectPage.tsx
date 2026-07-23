@@ -168,7 +168,7 @@ export default function ConnectPage() {
                 <h3 className="font-headline-sm text-headline-sm mt-stack-md text-white">Network Hub</h3>
                 <p className="font-body-md text-white/70 flex-grow">Connect through professional channels for real-time updates and industry insights.</p>
                 <div className="grid grid-cols-2 gap-base mt-stack-md">
-                  <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="https://linkedin.com/in/jawadabdullah" target="_blank" rel="noopener noreferrer">
+                  <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="https://www.linkedin.com/in/jawad-abdullah/" target="_blank" rel="noopener noreferrer">
                     <span className="font-label-caps text-label-caps uppercase text-white">LinkedIn</span>
                   </a>
                   <a className="p-3 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors border border-white/20" href="mailto:jawadabdulah918@gmail.com">
