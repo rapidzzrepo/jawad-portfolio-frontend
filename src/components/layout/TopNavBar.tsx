@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import profileImg from '../../assets/profile-whatsapp.jpeg'
 
 const sectionIds = ['hero', 'story', 'work', 'lab', 'timeline']
 
@@ -59,10 +60,22 @@ export default function TopNavBar() {
       <nav className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur-xl no-border flat no shadows">
         <div className="max-w-container-max mx-auto px-4 sm:px-margin-mobile md:px-gutter flex justify-between items-center h-16 sm:h-20">
           <a
-            className="font-display-lg text-[18px] sm:text-headline-sm font-bold tracking-tighter text-white"
+            className="flex items-center gap-3"
             href="#"
           >
-            Jawad Khan
+            <img
+              src={profileImg}
+              alt="Jawad Abdullah"
+              className="w-9 h-9 rounded-full object-cover border border-white/20 shrink-0"
+            />
+            <div className="flex flex-col">
+              <span className="font-display-lg text-[16px] sm:text-headline-sm font-bold tracking-tight text-white leading-tight">
+                JAWAD ABDULLAH
+              </span>
+              <span className="font-mono-label text-[8px] sm:text-[10px] text-white/40 uppercase tracking-widest leading-tight">
+                AI-Native Full Stack Engineer
+              </span>
+            </div>
           </a>
           <div className="hidden md:flex gap-gutter items-center">
             {links.map((link) => {

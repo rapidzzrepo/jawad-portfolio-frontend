@@ -1,19 +1,31 @@
 const projects = [
   {
-    title: 'Nexus AI Dashboard',
-    subtitle: 'Enterprise Intelligence Platform',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuD5bhderVUM2p-ZzhoxaZkxFpBpdISvwThyWOJ916LtxDO57ROuyB3Vj2hM9vSx4QpS_wufdHm7VPfJm56dN_H_z_Hjh87O-JwScfgv5vcDz6seJPqV_NW6fAXz0mSodWcuzw6ofWJ8M5ZiEstYRS5gZiUqmFzgxpr3JSfH07ir7jqvJNCLddvO9yHVRFxoCPbE6MS5UIDuAjKdLeAAQQZwC6NQ1qLa0kTs0Zm45oiy_SPsexKGWIk',
-    alt: 'Nexus AI Dashboard',
-    tags: ['React', 'LLM'],
+    title: 'SPiN Sports',
+    subtitle: 'AI-powered sports network connecting youth clubs, families, and athletes.',
+    tags: ['React', 'Next.js', 'Node.js', 'AWS'],
+    gradient: 'from-blue-600/20 to-cyan-500/10',
+    icon: 'sports_soccer',
   },
   {
-    title: 'Aura Lifestyle App',
-    subtitle: 'iOS Native Experience',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAv4c8Yh0c3N0VtWKvR32k-yo7rjuGoJ7jugDpPi_4QVuZKT4gKkyUJWMrXYjMEK-lBJzEPLrzVTvB-XwDM2m_CPn5HjylOa_o67vg06ZQ79r2HDERG5kNVEDIOerOlNX5aAEv6pVjkcti2lMa5l5L1IsdNcroLlhVzUD3eM9wa3zkwZfPzI1Xwdc8ZTEqRy1gswGyxtQBJimqZIiuQDwAH-sLP17QpDe-08doegfEpo4ZuIlD-2CU',
-    alt: 'Aura Lifestyle App',
-    tags: ['SwiftUI', 'Combine'],
+    title: 'Success.ai',
+    subtitle: 'AI-driven B2B SaaS with hyper-personalised email automation and lead scoring.',
+    tags: ['React', 'Node.js', 'MongoDB', 'OpenAI'],
+    gradient: 'from-purple-600/20 to-pink-500/10',
+    icon: 'auto_awesome',
+  },
+  {
+    title: 'Lantern Finance',
+    subtitle: 'Crypto-backed lending platform. Accepted into Techstars Web3 accelerator.',
+    tags: ['Next.js', 'Node.js', 'AWS', 'Stripe'],
+    gradient: 'from-emerald-600/20 to-teal-500/10',
+    icon: 'currency_bitcoin',
+  },
+  {
+    title: 'Canvs.ai',
+    subtitle: 'Enterprise feedback and emotion insights with AI-driven topic analysis.',
+    tags: ['React', 'Node.js', 'OpenAI'],
+    gradient: 'from-orange-600/20 to-amber-500/10',
+    icon: 'insights',
   },
 ]
 
@@ -34,21 +46,20 @@ export default function PortfolioSection() {
         </div>
         <a
           className="font-label-caps text-label-caps text-primary border-b border-primary pb-1 uppercase tracking-widest hover:opacity-70 transition-opacity px-2 py-1 -mx-2 -my-1"
-          href="#"
+          href="#work"
         >
-          Explore All Work
+          View All Work
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-gutter">
         {projects.map((project) => (
           <div key={project.title} className="group cursor-pointer">
-            <div className="relative w-full aspect-[16/10] bg-surface-container rounded-xl overflow-hidden mb-3 sm:mb-stack-sm shadow-sm transition-all duration-500 hover:shadow-2xl">
-              <img
-                alt={project.alt}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                src={project.image}
-                loading="lazy"
-              />
+            <div className={`relative w-full aspect-[16/10] bg-gradient-to-br ${project.gradient} rounded-xl overflow-hidden mb-3 sm:mb-stack-sm shadow-sm transition-all duration-500 hover:shadow-2xl border border-outline-variant/10`}>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="material-symbols-outlined text-6xl sm:text-7xl text-on-surface/10 group-hover:text-on-surface/20 transition-colors">
+                  {project.icon}
+                </span>
+              </div>
               <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 sm:opacity-0 transition-opacity flex items-center justify-center">
                 <span className="bg-surface text-on-surface px-4 sm:px-gutter py-2 sm:py-stack-sm rounded-full font-label-caps text-label-caps uppercase tracking-widest transform translate-y-4 group-hover:translate-y-0 transition-transform">
                   View Project
@@ -64,7 +75,7 @@ export default function PortfolioSection() {
                   {project.subtitle}
                 </p>
               </div>
-              <div className="flex gap-1.5 sm:gap-base shrink-0">
+              <div className="flex gap-1.5 sm:gap-base shrink-0 flex-wrap justify-end">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}

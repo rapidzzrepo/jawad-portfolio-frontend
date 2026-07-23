@@ -1,23 +1,23 @@
 const testimonials = [
   {
     quote:
-      '"An exceptional technical lead who understands the \'why\' as much as the \'how\'. The results exceeded our expectations."',
-    name: 'Sarah Chen',
-    role: 'CTO, Veridyn Systems',
+      '"Replaced five disconnected tools with one intelligent platform. The AI automation alone saved our team hours every week."',
+    name: 'Club Operations',
+    role: 'SPiN Sports Platform',
     mdMt: false,
   },
   {
     quote:
-      '"Transformative approach to mobile UX. Our engagement metrics doubled within three months of the redesign."',
-    name: 'Marcus Thorne',
-    role: 'Product Director, Aris',
+      '"The RAG pipeline and semantic search transformed how our users find leads. Response accuracy went through the roof."',
+    name: 'Product Team',
+    role: 'Success.ai',
     mdMt: true,
   },
   {
     quote:
-      '"Navigated our complex legacy migration with surgical precision. A masterclass in technical strategy."',
-    name: 'Elena Rodriguez',
-    role: 'VP Engineering, Omni',
+      '"Built compliance-grade healthcare workflows with AI at the core. The system handles real clinical processes reliably."',
+    name: 'Engineering Lead',
+    role: 'MedFlow',
     mdMt: false,
   },
 ]

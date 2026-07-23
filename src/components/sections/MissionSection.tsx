@@ -21,14 +21,13 @@ export default function MissionSection() {
             The Mission
           </h2>
           <h3 className="font-headline-md text-[28px] sm:text-[32px] md:text-headline-md text-primary leading-snug">
-            To bridge the chasm between raw technical capability and meaningful
-            human experience.
+            Shipping AI systems that real users rely on daily.
           </h3>
           <p className="font-body-md text-body-md text-secondary">
-            I believe that technology shouldn't just solve problems—it should
-            inspire. My work focuses on building digital infrastructure that is as
-            resilient as it is intuitive, ensuring that every line of code serves
-            a larger strategic purpose.
+            I design and deploy production-ready AI agents, RAG pipelines, and
+            LLM-powered workflows that automate complex business processes.
+            Backed by solid engineering fundamentals across the full stack, I
+            build intelligent systems from concept to production.
           </p>
           <div className="pt-3 sm:pt-stack-sm flex gap-6 sm:gap-stack-md">
             <div className="flex flex-col">
@@ -41,10 +40,10 @@ export default function MissionSection() {
             </div>
             <div className="flex flex-col">
               <span className="font-headline-sm text-headline-sm text-primary">
-                45+
+                7+
               </span>
               <span className="font-mono-label text-[12px] sm:text-mono-label text-on-surface-variant uppercase">
-                Products Launched
+                Key Projects
               </span>
             </div>
           </div>

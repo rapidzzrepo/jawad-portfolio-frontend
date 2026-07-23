@@ -3,11 +3,11 @@ import Starfield from '../ui/Starfield'
 const technologies = [
   { icon: 'code', name: 'React / Next.js' },
   { icon: 'settings_ethernet', name: 'TypeScript' },
-  { icon: 'terminal', name: 'Swift / SwiftUI' },
-  { icon: 'hub', name: 'GraphQL' },
-  { icon: 'auto_awesome', name: 'OpenAI / Anthropic' },
+  { icon: 'terminal', name: 'Node.js / Python' },
+  { icon: 'auto_awesome', name: 'OpenAI / Claude' },
+  { icon: 'hub', name: 'LangChain / RAG' },
   { icon: 'database', name: 'PostgreSQL' },
-  { icon: 'cloud', name: 'AWS / Vercel' },
+  { icon: 'cloud', name: 'AWS / Docker' },
   { icon: 'token', name: 'Vector DBs' },
 ]
 

@@ -2,29 +2,29 @@ import Starfield from '../ui/Starfield'
 
 const expertiseCards = [
   {
+    icon: 'psychology',
+    title: 'AI & LLMs',
+    description: 'RAG pipelines, AI agents, LLM integrations, and intelligent automation.',
+  },
+  {
     icon: 'terminal',
     title: 'Full Stack',
-    description: 'Scalable architectures and robust backend systems.',
+    description: 'React, Next.js, Node.js, Python, and scalable backend systems.',
   },
   {
-    icon: 'smartphone',
-    title: 'iOS Development',
-    description: 'SwiftUI native apps with editorial-grade UX.',
+    icon: 'code',
+    title: 'Frontend',
+    description: 'React.js, Next.js 14, TypeScript, Vue.js, and Tailwind CSS.',
   },
   {
-    icon: 'psychology',
-    title: 'AI Strategy',
-    description: 'LLM integration and predictive modeling.',
+    icon: 'dns',
+    title: 'Backend & DBs',
+    description: 'NestJS, Django, GraphQL, PostgreSQL, MongoDB, and Redis.',
   },
   {
-    icon: 'layers',
-    title: 'Product Strategy',
-    description: 'Market alignment and roadmap development.',
-  },
-  {
-    icon: 'rocket_launch',
-    title: 'Transformation',
-    description: 'Leading legacy systems into the modern era.',
+    icon: 'cloud',
+    title: 'Cloud & DevOps',
+    description: 'AWS, Docker, Kubernetes, Terraform, and CI/CD pipelines.',
   },
 ]
 

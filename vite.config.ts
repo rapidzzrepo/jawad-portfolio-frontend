@@ -8,8 +8,8 @@ export default defineConfig({
     host: true,
     allowedHosts: true,
     proxy: {
-      '/ask': 'http://localhost:8001',
-      '/health': 'http://localhost:8001',
+      '/ask': 'https://jawad.nexteksol.com',
+      '/health': 'https://jawad.nexteksol.com',
     },
   },
   appType: 'spa',

@@ -1,0 +1,98 @@
+{
+  "React": [
+    { "project": "spin-sports", "role": "lead", "weight": 1.0 },
+    { "project": "success-ai", "role": "lead", "weight": 1.0 },
+    { "project": "medflow", "role": "lead", "weight": 1.0 },
+    { "project": "lantern-finance", "role": "lead", "weight": 1.0 },
+    { "project": "canvs-ai", "role": "lead", "weight": 1.0 },
+    { "project": "cuddlynest", "role": "lead", "weight": 1.0 },
+    { "project": "netrefer", "role": "lead", "weight": 1.0 }
+  ],
+  "Next.js": [
+    { "project": "spin-sports", "role": "lead", "weight": 1.0 },
+    { "project": "lantern-finance", "role": "lead", "weight": 1.0 }
+  ],
+  "TypeScript": [
+    { "project": "spin-sports", "role": "lead", "weight": 1.0 },
+    { "project": "success-ai", "role": "lead", "weight": 1.0 },
+    { "project": "medflow", "role": "lead", "weight": 1.0 },
+    { "project": "lantern-finance", "role": "lead", "weight": 1.0 },
+    { "project": "canvs-ai", "role": "lead", "weight": 1.0 },
+    { "project": "cuddlynest", "role": "lead", "weight": 1.0 },
+    { "project": "netrefer", "role": "lead", "weight": 1.0 }
+  ],
+  "Node.js": [
+    { "project": "spin-sports", "role": "lead", "weight": 1.0 },
+    { "project": "success-ai", "role": "lead", "weight": 1.0 },
+    { "project": "medflow", "role": "lead", "weight": 1.0 },
+    { "project": "lantern-finance", "role": "lead", "weight": 1.0 },
+    { "project": "canvs-ai", "role": "lead", "weight": 1.0 },
+    { "project": "cuddlynest", "role": "lead", "weight": 1.0 }
+  ],
+  "Python": [
+    { "project": "medflow", "role": "lead", "weight": 0.8 },
+    { "project": "canvs-ai", "role": "lead", "weight": 0.8 }
+  ],
+  "AWS": [
+    { "project": "spin-sports", "role": "lead", "weight": 1.0 },
+    { "project": "success-ai", "role": "lead", "weight": 1.0 },
+    { "project": "medflow", "role": "lead", "weight": 1.0 },
+    { "project": "lantern-finance", "role": "lead", "weight": 1.0 }
+  ],
+  "OpenAI": [
+    { "project": "success-ai", "role": "lead", "weight": 1.0 },
+    { "project": "canvs-ai", "role": "lead", "weight": 1.0 }
+  ],
+  "MongoDB": [
+    { "project": "success-ai", "role": "lead", "weight": 1.0 }
+  ],
+  "PostgreSQL": [
+    { "project": "spin-sports", "role": "lead", "weight": 0.8 },
+    { "project": "medflow", "role": "lead", "weight": 0.8 }
+  ],
+  "Elasticsearch": [
+    { "project": "cuddlynest", "role": "lead", "weight": 1.0 }
+  ],
+  "Stripe": [
+    { "project": "lantern-finance", "role": "lead", "weight": 1.0 }
+  ],
+  "Azure": [
+    { "project": "netrefer", "role": "lead", "weight": 1.0 }
+  ],
+  "Docker": [
+    { "project": "spin-sports", "role": "lead", "weight": 0.7 },
+    { "project": "success-ai", "role": "lead", "weight": 0.7 }
+  ],
+  "Kubernetes": [
+    { "project": "spin-sports", "role": "lead", "weight": 0.6 }
+  ],
+  "LangChain": [
+    { "project": "success-ai", "role": "lead", "weight": 0.8 },
+    { "project": "canvs-ai", "role": "lead", "weight": 0.8 }
+  ],
+  "RAG Pipelines": [
+    { "project": "success-ai", "role": "lead", "weight": 0.9 },
+    { "project": "canvs-ai", "role": "lead", "weight": 0.9 }
+  ],
+  "AI Agents": [
+    { "project": "spin-sports", "role": "lead", "weight": 0.8 },
+    { "project": "medflow", "role": "lead", "weight": 0.8 }
+  ],
+  "Vector Databases": [
+    { "project": "success-ai", "role": "lead", "weight": 0.8 },
+    { "project": "canvs-ai", "role": "lead", "weight": 0.8 }
+  ],
+  "Machine Learning": [
+    { "project": "cuddlynest", "role": "lead", "weight": 1.0 }
+  ],
+  ".NET": [
+    { "project": "netrefer", "role": "lead", "weight": 1.0 }
+  ],
+  "GraphQL": [
+    { "project": "medflow", "role": "lead", "weight": 0.6 }
+  ],
+  "Redis": [
+    { "project": "spin-sports", "role": "lead", "weight": 0.7 },
+    { "project": "success-ai", "role": "lead", "weight": 0.7 }
+  ]
+}
