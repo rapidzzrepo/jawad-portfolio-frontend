@@ -42,34 +42,34 @@ export default function ConnectPage() {
         {/* Hero & Contact Form Section */}
         <section className="max-w-container-max mx-auto px-4 sm:px-margin-mobile md:px-gutter grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch mb-12 sm:mb-section-gap relative z-10">
           {/* Left Side: Content */}
-          <div className="lg:col-span-5 rounded-2xl p-6 sm:p-stack-lg flex flex-col justify-center"
+          <div className="lg:col-span-5 rounded-2xl p-4 sm:p-6 md:p-stack-lg flex flex-col justify-center"
             style={{ backgroundColor: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(0px)', border: '1px solid rgba(255, 255, 255, 0.12)' }}>
-            <div className="inline-flex items-center font-label-caps text-label-caps uppercase tracking-widest text-white/80 bg-white/10 px-4 py-2 rounded-full border border-white/20 w-fit">
+            <div className="inline-flex items-center font-label-caps text-[10px] sm:text-label-caps uppercase tracking-widest text-white/80 bg-white/10 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-white/20 w-fit">
               Currently Open for Partnerships
             </div>
-            <h1 className="font-display-lg text-[32px] sm:text-[44px] md:text-display-lg text-white leading-tight font-bold tracking-tighter mt-6">
+            <h1 className="font-display-lg text-[26px] sm:text-[32px] md:text-[44px] lg:text-display-lg text-white leading-tight font-bold tracking-tighter mt-4 sm:mt-6">
               Let's Build the Future.
             </h1>
-            <p className="font-body-lg text-[14px] sm:text-body-lg text-white/70 max-w-lg mt-4">
+            <p className="font-body-lg text-[13px] sm:text-[14px] md:text-body-lg text-white/70 max-w-lg mt-3 sm:mt-4">
               I build production AI systems, RAG pipelines, and intelligent automation workflows. Whether you need AI integration, full-stack development, or technical leadership, let's build something remarkable.
             </p>
-            <div className="flex flex-col gap-4 mt-6">
-              <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors duration-300 cursor-pointer group touch-hover-reset">
-                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined">mail</span>
+            <div className="flex flex-col gap-3 sm:gap-4 mt-4 sm:mt-6">
+              <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl hover:bg-white/10 transition-colors duration-300 cursor-pointer group touch-hover-reset">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:scale-110 transition-transform shrink-0">
+                  <span className="material-symbols-outlined text-xl sm:text-2xl">mail</span>
                 </div>
-                <div>
-                  <p className="font-label-caps text-[10px] uppercase text-white/50">Direct Email</p>
-                  <p className="font-body-md font-medium text-white">{RECIPIENT_EMAIL}</p>
+                <div className="min-w-0">
+                  <p className="font-label-caps text-[9px] sm:text-[10px] uppercase text-white/50">Direct Email</p>
+                  <p className="font-body-md font-medium text-white text-[11px] sm:text-[13px] md:text-[14px] whitespace-nowrap">{RECIPIENT_EMAIL}</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors duration-300 cursor-pointer group touch-hover-reset">
-                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined">schedule</span>
+              <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl hover:bg-white/10 transition-colors duration-300 cursor-pointer group touch-hover-reset">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:scale-110 transition-transform shrink-0">
+                  <span className="material-symbols-outlined text-xl sm:text-2xl">schedule</span>
                 </div>
-                <div>
-                  <p className="font-label-caps text-[10px] uppercase text-white/50">Response Time</p>
-                  <p className="font-body-md font-medium text-white">Within 24 business hours</p>
+                <div className="min-w-0">
+                  <p className="font-label-caps text-[9px] sm:text-[10px] uppercase text-white/50">Response Time</p>
+                  <p className="font-body-md font-medium text-white text-[13px] sm:text-[14px]">Within 24 business hours</p>
                 </div>
               </div>
             </div>
@@ -77,33 +77,33 @@ export default function ConnectPage() {
 
           {/* Right Side: Form */}
           <div className="lg:col-span-7 lg:pl-gutter h-full">
-            <div className="rounded-xl p-6 sm:p-stack-lg relative overflow-hidden h-full" style={{ backgroundColor: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(0px)', border: '1px solid rgba(255, 255, 255, 0.12)' }}>
+            <div className="rounded-xl p-4 sm:p-6 md:p-stack-lg relative overflow-hidden h-full" style={{ backgroundColor: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(0px)', border: '1px solid rgba(255, 255, 255, 0.12)' }}>
               <div className="absolute -top-24 -right-24 w-64 h-64 bg-white/5 rounded-full blur-3xl" />
-              <form className="space-y-stack-md relative z-10" onSubmit={handleSubmit}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
-                  <div className="space-y-2">
-                    <label className="font-label-caps text-label-caps uppercase text-white/70">Full Name</label>
-                    <input className="w-full bg-white/10 border border-white/20 rounded-lg p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-white placeholder-white/40" placeholder="John Doe" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+              <form className="space-y-4 sm:space-y-stack-md relative z-10" onSubmit={handleSubmit}>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-stack-md">
+                  <div className="space-y-1.5 sm:space-y-2">
+                    <label className="font-label-caps text-[11px] sm:text-label-caps uppercase text-white/70">Full Name</label>
+                    <input className="w-full bg-white/10 border border-white/20 rounded-lg p-3 sm:p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-[14px] sm:text-body-md text-white placeholder-white/40" placeholder="John Doe" type="text" value={name} onChange={(e) => setName(e.target.value)} />
                   </div>
-                  <div className="space-y-2">
-                    <label className="font-label-caps text-label-caps uppercase text-white/70">Email Address</label>
-                    <input className="w-full bg-white/10 border border-white/20 rounded-lg p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-white placeholder-white/40" placeholder="john@example.com" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                  <div className="space-y-1.5 sm:space-y-2">
+                    <label className="font-label-caps text-[11px] sm:text-label-caps uppercase text-white/70">Email Address</label>
+                    <input className="w-full bg-white/10 border border-white/20 rounded-lg p-3 sm:p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-[14px] sm:text-body-md text-white placeholder-white/40" placeholder="john@example.com" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                  </div>
                 </div>
-              </div>
-              <div className="space-y-2">
-                  <label className="font-label-caps text-label-caps uppercase text-white/70">Inquiry Type</label>
-                  <select className="w-full bg-white/10 border border-white/20 rounded-lg p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-[13px] sm:text-body-md text-white appearance-none" value={inquiryType} onChange={(e) => setInquiryType(e.target.value)}>
+                <div className="space-y-1.5 sm:space-y-2">
+                  <label className="font-label-caps text-[11px] sm:text-label-caps uppercase text-white/70">Inquiry Type</label>
+                  <select className="w-full bg-white/10 border border-white/20 rounded-lg p-3 sm:p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-[13px] sm:text-body-md text-white appearance-none" value={inquiryType} onChange={(e) => setInquiryType(e.target.value)}>
                     <option className="text-black">AI Engineering &amp; LLM Integration</option>
                     <option className="text-black">Full-Stack Development Project</option>
                     <option className="text-black">RAG Pipeline &amp; AI Agents</option>
                     <option className="text-black">Technical Consultation</option>
                   </select>
                 </div>
-                <div className="space-y-2">
-                  <label className="font-label-caps text-label-caps uppercase text-white/70">Your Message</label>
-                  <textarea className="w-full bg-white/10 border border-white/20 rounded-lg p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-white placeholder-white/40 resize-none" placeholder="Tell me about your project or vision..." rows={5} value={message} onChange={(e) => setMessage(e.target.value)} />
+                <div className="space-y-1.5 sm:space-y-2">
+                  <label className="font-label-caps text-[11px] sm:text-label-caps uppercase text-white/70">Your Message</label>
+                  <textarea className="w-full bg-white/10 border border-white/20 rounded-lg p-3 sm:p-4 focus:ring-2 focus:ring-white/50 focus:border-transparent outline-none transition-all font-body-md text-[14px] sm:text-body-md text-white placeholder-white/40 resize-none" placeholder="Tell me about your project or vision..." rows={4} value={message} onChange={(e) => setMessage(e.target.value)} />
                 </div>
-                <button className="w-full bg-white text-black py-5 rounded-lg font-label-caps text-label-caps uppercase tracking-widest flex items-center justify-center gap-stack-sm hover:translate-y-[-2px] hover:shadow-lg transition-all duration-300" type="submit" disabled={sending || submitted}>
+                <button className="w-full bg-white text-black py-4 sm:py-5 rounded-lg font-label-caps text-[12px] sm:text-label-caps uppercase tracking-widest flex items-center justify-center gap-2 sm:gap-stack-sm hover:translate-y-[-2px] hover:shadow-lg transition-all duration-300" type="submit" disabled={sending || submitted}>
                   {submitted ? (
                     <>
                       <span className="material-symbols-outlined text-sm">check_circle</span>
