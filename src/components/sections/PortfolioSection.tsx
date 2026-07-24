@@ -5,6 +5,7 @@ const projects = [
     tags: ['React', 'Next.js', 'Node.js', 'AWS'],
     image: '/FeaturedProjectsPictures/Spin.png',
     glowColor: 'rgba(34, 197, 94, 0.35)',
+    url: 'https://www.spinsports.ai/',
   },
   {
     title: 'Success.ai',
@@ -12,6 +13,7 @@ const projects = [
     tags: ['React', 'Node.js', 'MongoDB', 'OpenAI'],
     image: '/FeaturedProjectsPictures/SuccessAI.png',
     glowColor: 'rgba(59, 130, 246, 0.35)',
+    url: 'https://www.success.ai/',
   },
 ]
 
@@ -48,32 +50,32 @@ export default function PortfolioSection() {
               style={{ boxShadow: `0 0 30px 8px ${project.glowColor}` }}
             />
             <div className="relative z-[1] overflow-hidden rounded-xl">
-              <div className="relative w-full aspect-[16/10] bg-surface-container overflow-hidden">
+              <div className="relative w-full aspect-[16/10] bg-surface-container overflow-hidden flex items-center justify-center p-4">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 sm:opacity-0 transition-opacity flex items-center justify-center">
+                <a href={project.url} target="_blank" rel="noopener noreferrer" className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 sm:opacity-0 transition-opacity flex items-center justify-center">
                   <span className="bg-surface text-on-surface px-4 sm:px-gutter py-2 sm:py-stack-sm rounded-full font-label-caps text-label-caps uppercase tracking-widest transform translate-y-4 group-hover:translate-y-0 transition-transform">
                     View Project
                   </span>
-                </div>
+                </a>
               </div>
-              <div className="p-4 sm:p-stack-md flex justify-between items-start gap-3">
+              <div className="p-3 sm:p-stack-md flex flex-col gap-3">
                 <div className="min-w-0">
-                  <h4 className="font-headline-sm text-[18px] sm:text-headline-sm text-primary mb-1">
+                  <h4 className="font-headline-sm text-[16px] sm:text-[18px] md:text-headline-sm text-primary mb-1 leading-tight">
                     {project.title}
                   </h4>
-                  <p className="text-on-surface-variant font-body-md text-[14px] sm:text-body-md">
+                  <p className="text-on-surface-variant font-body-md text-[13px] sm:text-[14px] md:text-body-md leading-relaxed">
                     {project.subtitle}
                   </p>
                 </div>
-                <div className="flex gap-1.5 sm:gap-base shrink-0 flex-wrap justify-end">
+                <div className="flex gap-1.5 sm:gap-base flex-wrap">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 sm:px-base py-1 bg-surface-container rounded font-mono-label text-[9px] sm:text-[10px] uppercase text-secondary"
+                      className="px-2 sm:px-base py-1 bg-surface-container rounded font-mono-label text-[8px] sm:text-[9px] md:text-[10px] uppercase text-secondary"
                     >
                       {tag}
                     </span>
