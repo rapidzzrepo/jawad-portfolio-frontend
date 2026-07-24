@@ -40,10 +40,10 @@ export default function MissionSection() {
             </div>
             <div className="flex flex-col">
               <span className="font-headline-sm text-headline-sm text-primary">
-                7+
+                15+
               </span>
               <span className="font-mono-label text-[12px] sm:text-mono-label text-on-surface-variant uppercase">
-                Key Projects
+                Well Managed Projects
               </span>
             </div>
           </div>
