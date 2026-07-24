@@ -14,10 +14,9 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
 .idea
 .DS_Store
+temp_auto_push.bat
 *.suo
 *.ntvs*
 *.njsproj
@@ -35,4 +34,5 @@ out/
 
 # Python cache
 __pycache__/
-*.pyc
+*.pyc.gitignore
+branch_structure.json
